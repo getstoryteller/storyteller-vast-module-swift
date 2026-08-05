@@ -12,12 +12,12 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/getstoryteller/storyteller-sdk-swift-package", exact: "11.5.3")
+        .package(url: "https://github.com/getstoryteller/storyteller-sdk-swift-package", exact: "11.5.4")
     ],
     targets: [
         .binaryTarget(name: "StorytellerVASTIntegration",
-                      url: "https://storyteller.azureedge.net/sdk-ios/xcframeworks/11.5.3/StorytellerVASTIntegration.zip",
-                      checksum: "602bfee0ef071cfdf63daef4ebb5d6c7edcec550c532d63eab34af8327a0a3b2"),
+                      url: "https://storyteller.azureedge.net/sdk-ios/xcframeworks/11.5.4/StorytellerVASTIntegration.zip",
+                      checksum: "10b6ae1ff2c8be24ca02b8b952d288e6bf2ef184655a5b5ee6251f5d0ca9eeb3"),
         .target(
             name: "StorytellerVASTTarget",
             dependencies: [
